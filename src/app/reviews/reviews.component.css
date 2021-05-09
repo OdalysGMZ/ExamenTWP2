@@ -1,0 +1,33 @@
+.texto{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: rgba(147, 157, 247, 0.3);
+}
+input{
+    border-radius: 5px;
+    width: 50%;
+}
+td{
+    width: 50%;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+.tit{
+width: 50%;
+height: auto;
+}
+.cal{
+width: 25%;
+height: auto;
+}
+.tabla{
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    border-radius: 10px;
+}

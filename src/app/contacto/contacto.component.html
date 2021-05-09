@@ -1,0 +1,24 @@
+<section>
+    <div class="formu">
+        <h2 style="text-align: center;">Contacto</h2>
+        <br>
+        <form>
+            Nombre <br>
+            <input type="text" name="nombre" [(ngModel)]="nombre" required> <br>
+            Apellidos <br>
+            <input type="text" name="apellidos" [(ngModel)]="apellidos" required> <br>
+            Correo electronico <br>
+            <input type="email" name="correo" [(ngModel)]="correo" required> <br> <br>
+            Comentarios <br>
+            <textarea name="comentario" [(ngModel)]="comentario" minlength="5" required></textarea>
+
+            <br><br>
+
+            <button type="submit" class="btn btn-primary" (click)="enviar()">Enviar</button>
+        </form>
+        <br> <br>
+        <p *ngIf="error==true">Uno o mas datos son erroneos o faltan!</p>
+        <p *ngIf="edited==true">Tus comentarios se han enviado correctamente {{nombre}}!</p>
+
+    </div>
+</section>

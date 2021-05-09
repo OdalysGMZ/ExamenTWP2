@@ -1,0 +1,26 @@
+.formu{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    padding: 5%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(147, 157, 247, 0.3);
+}
+input:invalid{
+    box-shadow: 0 0 5px 1px rgb(197, 20, 20);
+    background-color: rgba(197, 20, 20, 0.2);
+}
+input{
+    border-radius: 5px;
+    width: 50%;
+}
+textarea:invalid{
+    box-shadow: 0 0 5px 1px rgb(197, 20, 20);
+    background-color: rgba(197, 20, 20, 0.2);
+}
+textarea{
+    border-radius: 5px;
+    width: 50%;
+}
